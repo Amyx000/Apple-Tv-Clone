@@ -1,0 +1,86 @@
+.title{
+    font-size: 16px;
+    color: white;
+    margin:0;
+}
+
+.deck1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+
+.img1, .img2, .img3, .img4 {
+
+    width: 100%;
+    border-radius: 12px;
+   
+}
+
+.fadediv{
+    width: 100%;
+    border-radius: 12px;
+    background-color: transparent;
+    height: 161px;
+    position:relative;
+    bottom: 165px;
+    margin-bottom: -165px;
+      
+}
+.fadediv:hover{
+    background-color: rgba(0, 0, 0, 0.321);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+
+
+
+
+.card{
+    margin:13px 40px 0 40px;
+}
+
+hr{
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    
+}
+
+.div1,.div2,.div3,.div4{
+    color: white;
+}
+
+.sub1,.sub2,.sub3,.sub4{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+.sub{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 16px;
+}
+
+.threedots{
+    background-color: rgba(128, 128, 128, 0.716);
+   color: white;
+   width: 25px;
+   height: 25px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 35px;
+    left: 250px;
+    text-align: center;
+    margin-bottom: -29px;
+    align-items: center;
+    padding: 2px;
+}
+.threedots:hover{
+    background-color: #0a84ff;
+    cursor: pointer;
+}
+
+.nodots{
+    display: none;
+}

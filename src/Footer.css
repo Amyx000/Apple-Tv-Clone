@@ -1,0 +1,141 @@
+.fmain{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+.finside{
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+
+
+.aicon{
+    width: 65px;
+}
+
+.fheading{
+    font-size: 34px;
+    margin-top: 26px;
+}
+
+.fh2{
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.fp1{
+    margin-top: 30px;
+    color: #47a3ff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.fp1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fiveicons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 30px;
+
+}
+
+.fimg1,.fimg2,.fimg3,.fimg4,.fimg5{
+    width: 85px;
+
+}
+
+.fsub{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fh21{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.fp2{
+
+    margin-top: 6px;
+    color: #47a3ff;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.fp2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.threeicons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+
+.threeimg{
+    width: 85px;
+}
+
+.fd{
+    
+    color: #ffffff92
+}
+
+.fpend{
+    color:white;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+
+.last{
+    padding: 10px 40px 0 40px;
+    color: white;
+    height: 150px;
+    
+}
+
+.last1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 10px;
+}
+
+.lastinside2{
+    text-align: right;
+    font-weight: bold;
+}
+.lastinside1{
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.last2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 130px 120px 1fr 8fr;
+    font-size: 10px;
+    
+    
+}
+
+.last21,.last22,.last23{
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.373);
+}
+.last24{
+    padding-left: 10px;
+}
+
+.last21{
+    text-align: left;
+}

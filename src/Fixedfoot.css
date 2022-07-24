@@ -1,0 +1,59 @@
+.fixedmain{
+    background-color: #262629;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    opacity: 1;
+    z-index: 100;
+    transition: all 0.3s ease-in;
+  
+}
+
+.hide{
+    opacity: 0;
+}
+
+
+.fixedcontain{
+    height: 100px;
+    color:white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fixedbutton{
+    width: 125px;
+    font-weight: 600;
+    font-size: 13px;
+    height: 32px;
+}
+
+.fixed1{
+    font-weight: bold;
+}
+.fixed2{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.fixed3{
+    color: #409cff;
+    font-weight: bold;
+}
+
+.fixedright{
+    text-align: right;
+}
+
+.fixed4{
+    padding-right: 13px;
+}
+.fixed5{
+    font-size: 10px;
+    color:  rgba(255, 255, 255, 0.753);
+}
