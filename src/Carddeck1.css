@@ -16,17 +16,21 @@
 
     width: 100%;
     border-radius: 12px;
-   
+}
+
+.deck1>div{
+    position: relative;
 }
 
 .fadediv{
     width: 100%;
     border-radius: 12px;
     background-color: transparent;
-    height: 161px;
-    position:relative;
-    bottom: 165px;
-    margin-bottom: -165px;
+    aspect-ratio: 194/109;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
       
 }
 .fadediv:hover{
@@ -83,4 +87,10 @@ hr{
 
 .nodots{
     display: none;
+}
+
+@media screen and (max-width:500px) {
+    .deck1{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

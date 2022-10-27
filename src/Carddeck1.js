@@ -9,8 +9,6 @@ function Carddeck1(Props) {
    
     const changeClass1 = ()=>{
         SetClss1("threedots");
-        
-       
     }
     
     

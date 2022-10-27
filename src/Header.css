@@ -15,6 +15,7 @@
     left: 0;
     top:0;
     opacity: 1;
+    z-index: 100;
 }
 
 .d1{
@@ -32,7 +33,8 @@ button{
     line-height: 1.30772;
     font-weight: 500;
     letter-spacing: 0;
-    width: 80px;
+    width: max-content;
+    border: none;
     
 }
 button:hover{
@@ -53,8 +55,7 @@ button:hover{
     height: 100vh;
     color: white;
     text-align: center;
-    
-    
+    position: relative;
 }
 
 h1{
@@ -69,7 +70,10 @@ h2{
 }
 
 .container{
-    padding-top: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .b2{

@@ -5,15 +5,19 @@
     padding-top: 13px;
     padding-bottom: 20px;
 }
+.deck2>div{
+    position: relative;
+}
 
 .fadediv1{
     width: 100%;
+    aspect-ratio: 266/149;
     border-radius: 12px;
     background-color: transparent;
-    height: 219px;
-    position:relative;
-    bottom: 222px;
-    margin-bottom: -222px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     opacity: 0.9;
       
 }
@@ -21,4 +25,10 @@
     background-color: rgba(0, 0, 0, 0.321);
     transition: all 0.2s ease-in;
     cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .deck2{
+        grid-template-columns: 1fr;
+    }
 }
